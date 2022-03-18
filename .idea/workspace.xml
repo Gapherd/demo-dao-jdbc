@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d12a9b6-8343-4609-bd12-ae62ad472f1a" name="Default Changelist" comment="" />
+    <list default="true" id="6d12a9b6-8343-4609-bd12-ae62ad472f1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entities/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +14,16 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -19,6 +34,7 @@
     </option>
   </component>
   <component name="ProjectId" id="26Z51IrnPCv7xkiJ1QIYrKfDuua" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +42,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -34,6 +51,32 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gabriel.mendes\Documents\Udemy-Java\Banco de Dados\demo-dao-jdbc" />
+      <recent name="C:\Users\gabriel.mendes\Documents\Udemy-Java\Banco de Dados\demo-dao-jdbc\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Program" />
+      <module name="demo-dao-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,18 +88,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647618050205</updated>
-      <workItem from="1647618053639" duration="21000" />
+      <workItem from="1647618053639" duration="933000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="275" y="19" key="#Project_Structure" timestamp="1647618093816">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="275" y="19" key="#Project_Structure/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1647618093816" />
+    <state x="-995" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1647618760388">
+      <screen x="-1600" y="2" width="1600" height="852" />
+    </state>
+    <state x="-995" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647618760388" />
     <state x="389" y="102" key="FileChooserDialogImpl" timestamp="1647618070075">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
@@ -65,5 +123,9 @@
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1647618074149" />
+    <state x="-1208" y="162" key="Vcs.Push.Dialog.v2" timestamp="1647619002153">
+      <screen x="-1600" y="2" width="1600" height="852" />
+    </state>
+    <state x="-1208" y="162" key="Vcs.Push.Dialog.v2/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647619002153" />
   </component>
 </project>
