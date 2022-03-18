@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d12a9b6-8343-4609-bd12-ae62ad472f1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/dao/DepartmentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/dao/SellerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647618050205</updated>
-      <workItem from="1647618053639" duration="1547000" />
+      <workItem from="1647618053639" duration="1779000" />
     </task>
     <task id="LOCAL-00001" summary="Department entity class">
       <created>1647619058454</created>
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647619398930</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DepartmentDao and SellerDao">
+      <created>1647619643935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647619643935</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,21 +132,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Department entity class" />
     <MESSAGE value="Seller entity class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seller entity class" />
+    <MESSAGE value="DepartmentDao and SellerDao" />
+    <option name="LAST_COMMIT_MESSAGE" value="DepartmentDao and SellerDao" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="19" key="#Project_Structure" timestamp="1647618093816">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="275" y="19" key="#Project_Structure/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1647618093816" />
-    <state x="-995" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1647619254257">
+    <state x="-995" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1647619749843">
       <screen x="-1600" y="2" width="1600" height="852" />
     </state>
-    <state x="-995" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647619254257" />
-    <state x="-1282" y="23" key="CommitChangelistDialog2" timestamp="1647619397905">
+    <state x="-995" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647619749843" />
+    <state x="-1282" y="23" key="CommitChangelistDialog2" timestamp="1647619643196">
       <screen x="-1600" y="2" width="1600" height="852" />
     </state>
-    <state x="-1282" y="23" key="CommitChangelistDialog2/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647619397905" />
+    <state x="-1282" y="23" key="CommitChangelistDialog2/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647619643196" />
     <state x="389" y="102" key="FileChooserDialogImpl" timestamp="1647618070075">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
@@ -163,9 +172,9 @@
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1647618074149" />
-    <state x="-1208" y="162" key="Vcs.Push.Dialog.v2" timestamp="1647619401846">
+    <state x="-1208" y="162" key="Vcs.Push.Dialog.v2" timestamp="1647619644923">
       <screen x="-1600" y="2" width="1600" height="852" />
     </state>
-    <state x="-1208" y="162" key="Vcs.Push.Dialog.v2/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647619401846" />
+    <state x="-1208" y="162" key="Vcs.Push.Dialog.v2/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647619644923" />
   </component>
 </project>
