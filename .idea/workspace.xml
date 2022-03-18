@@ -4,7 +4,6 @@
     <list default="true" id="6d12a9b6-8343-4609-bd12-ae62ad472f1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/dao/SellerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/SellerDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647618050205</updated>
       <workItem from="1647618053639" duration="2618000" />
-      <workItem from="1647640706999" duration="3031000" />
+      <workItem from="1647640706999" duration="3719000" />
     </task>
     <task id="LOCAL-00001" summary="Department entity class">
       <created>1647619058454</created>
@@ -141,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647642926029</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="insert implementation">
+      <created>1647643851515</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647643851515</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +174,8 @@
     <MESSAGE value="Reusing instantiation" />
     <MESSAGE value="findByDeparment implementation" />
     <MESSAGE value="findAll implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="findAll implementation" />
+    <MESSAGE value="insert implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert implementation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="19" key="#Project_Structure" timestamp="1647618093816">
@@ -180,45 +187,45 @@
     </state>
     <state x="-995" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647619749843" />
     <state x="517" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720@0.0.1366.720" timestamp="1647641469979" />
-    <state x="271" y="0" key="CommitChangelistDialog2" timestamp="1647642924829">
+    <state x="271" y="0" key="CommitChangelistDialog2" timestamp="1647643850295">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="-1282" y="23" key="CommitChangelistDialog2/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647620754009" />
-    <state x="271" y="0" key="CommitChangelistDialog2/0.0.1366.720@0.0.1366.720" timestamp="1647642924829" />
+    <state x="271" y="0" key="CommitChangelistDialog2/0.0.1366.720@0.0.1366.720" timestamp="1647643850295" />
     <state x="389" y="102" key="FileChooserDialogImpl" timestamp="1647618070075">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="389" y="102" key="FileChooserDialogImpl/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1647618070075" />
-    <state width="1323" height="175" key="GridCell.Tab.0.bottom" timestamp="1647643773014">
+    <state width="1323" height="175" key="GridCell.Tab.0.bottom" timestamp="1647644469624">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state width="1557" height="220" key="GridCell.Tab.0.bottom/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647620704027" />
-    <state width="1323" height="175" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1647643773014" />
-    <state width="1323" height="175" key="GridCell.Tab.0.center" timestamp="1647643773014">
+    <state width="1323" height="175" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1647644469624" />
+    <state width="1323" height="175" key="GridCell.Tab.0.center" timestamp="1647644469624">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state width="1557" height="220" key="GridCell.Tab.0.center/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647620704027" />
-    <state width="1323" height="175" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1647643773014" />
-    <state width="1323" height="175" key="GridCell.Tab.0.left" timestamp="1647643773013">
+    <state width="1323" height="175" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1647644469624" />
+    <state width="1323" height="175" key="GridCell.Tab.0.left" timestamp="1647644469624">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state width="1557" height="220" key="GridCell.Tab.0.left/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647620704027" />
-    <state width="1323" height="175" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1647643773013" />
-    <state width="1323" height="175" key="GridCell.Tab.0.right" timestamp="1647643773014">
+    <state width="1323" height="175" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1647644469624" />
+    <state width="1323" height="175" key="GridCell.Tab.0.right" timestamp="1647644469624">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state width="1557" height="220" key="GridCell.Tab.0.right/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647620704027" />
-    <state width="1323" height="175" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1647643773014" />
+    <state width="1323" height="175" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1647644469624" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1647641228116">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1647618074149" />
     <state x="163" y="0" key="SettingsEditor/0.0.1366.720@0.0.1366.720" timestamp="1647641228116" />
-    <state x="335" y="135" key="Vcs.Push.Dialog.v2" timestamp="1647642931140">
+    <state x="335" y="135" key="Vcs.Push.Dialog.v2" timestamp="1647643855503">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="-1208" y="162" key="Vcs.Push.Dialog.v2/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1647620756096" />
-    <state x="335" y="135" key="Vcs.Push.Dialog.v2/0.0.1366.720@0.0.1366.720" timestamp="1647642931140" />
+    <state x="335" y="135" key="Vcs.Push.Dialog.v2/0.0.1366.720@0.0.1366.720" timestamp="1647643855503" />
     <state x="339" y="160" key="run.anything.popup" timestamp="1647643575744">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
@@ -227,5 +234,16 @@
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="346" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1366.720@0.0.1366.720" timestamp="1647642196761" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
